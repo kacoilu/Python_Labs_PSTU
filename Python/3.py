@@ -1,6 +1,6 @@
 from pyDatalog import pyDatalog
 
-summ = ((0 + 1000000) * 1000000) / 2
+summ = ((0 + 999999) * 1000000) / 2
 median = 10 / 2
 
 pyDatalog.create_terms('Sum_n, Avg, Median, Prod_n')
